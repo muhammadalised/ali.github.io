@@ -1747,6 +1747,7 @@ input, select, textarea {
 	.image {
 		display: inline-block;
 		border: 0;
+		border-radius: 5%;
 	}
 
 		.image img {
@@ -1764,7 +1765,12 @@ input, select, textarea {
 				width: 75px;
 				height: 75px;
 			}
-
+		
+		.image.tool img {
+			width: 100px;
+			height: 100px;
+		}
+		
 		.image.fit {
 			display: block;
 			width: 100%;
